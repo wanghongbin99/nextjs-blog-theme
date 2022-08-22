@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Wang Family Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : '2022 All rights reserved.';
 
   return {
     name,
